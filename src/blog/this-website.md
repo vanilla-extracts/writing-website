@@ -7,7 +7,7 @@
 I found Sabrina Jewson's website by chance and it was wonderful so I cloned her
 repo and started my writing blog on her technology!
 
-## Constructing it 
+## Constructing it {#it} 
 
 Building the website was *very* easy thanks to her, I just cloned her GitHub
 repository and changed the templates and sources. 
@@ -17,7 +17,7 @@ her name everywhere. If she's not okay with me using it I will put this website
 down (realistically, I would rewrite the Rust software a little differently as
 to not trigger copyrights
 
-## Content
+## Content {#content}
 
 The content of this website will be easy. An index page which has various
 informations and a blog where I will post on my life and on my writing journey. 

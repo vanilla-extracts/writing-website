@@ -1,4 +1,4 @@
-## Charlotte Thomas Writing Den { #den } 
+## Charlotte Thomas' Writing Den { #den } 
 
 Hi! Welcome to my Writing Den.
 
