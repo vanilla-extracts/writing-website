@@ -70,3 +70,7 @@ blockquote {
 	padding-left: 10px;
 	opacity: 0.7;
 }
+
+.center {
+	text-align: center;
+}
