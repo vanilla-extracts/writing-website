@@ -12,7 +12,7 @@ _GC_ is my main story, it's still in the writing phase (of my first draft) so it
 won't appear on the shelves *just yet* but it will! The PDF/Web Novel will be
 free to read on [ScribbleHub](https://www.scribblehub.com). 
 
-You can read the [blog](/blog) for updates on _GC_!
+You can read the [blog](/blog/) for updates on _GC_!
 
 ## A Witchy Best Friend { #awb }
 
@@ -25,7 +25,7 @@ If you fancy supporting me, first *thank you very much*, second, I am not a full
 time writer, my day job is in IT. So consider giving the money to a struggling
 writer. If you *really* fancy supporting me though you can buy the e-book
 (starting at €5, with an optional donation) on my [Ko-Fi
-Shop](https://ko-fi.com/coco33920) or on [itch](https://itch.io) once it will be
+Shop](https://ko-fi.com/vanilla_extracts) or on [itch](https://itch.io) once it will be
 done.
 
 If you **really** want to support my work, five copies of _GC_ will be sold at
@@ -37,11 +37,12 @@ amazing artworks!
 ## About Me { #about-me }
 I am using she/they pronouns and feminine accords. 
 
-You can find my [website](https://me.nwa2coco.fr) here, this is only the write log
+You can find my [website](https://charlotte-thomas.me) here, this is only the write log
 
 You can find me there:
-- [GitHub, as coco33920](https://github.com/coco33920)
+- [GitHub, as vanilla-extracts](https://github.com/vanilla-extracts)
 - Discord, as `vanilla_extracts`
-- Email, at `charlotte[at]nwa2coco.fr`
-- Threads/IG, as `coco33920.0`
-- [Ko-Fi as coco33920](https://ko-fi.com/coco33920)
+- Email regarding my writing, at `gc [at] charlotte-thomas [dot] me`
+- General Email, at `me [at] charlotte-thomas [dot] me`
+- Threads/IG, as `vanilla.extracts`
+- [Ko-Fi as vanilla_extracts](https://ko-fi.com/vanilla_extracts)
