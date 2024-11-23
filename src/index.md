@@ -37,7 +37,7 @@ amazing artworks!
 ## About Me { #about-me }
 I am using she/they pronouns and feminine accords. 
 
-You can find my [website](https://charlotte-thomas.me) here, this is only the write log
+You can find my [website](https://www.charlotte-thomas.me) here, this is only the write log
 
 You can find me there:
 - [GitHub, as vanilla-extracts](https://github.com/vanilla-extracts)
