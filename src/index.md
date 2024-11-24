@@ -19,6 +19,22 @@ You can read the [blog](/blog/) for updates on _GC_!
 _AWB_ is a short story I wrote years ago, it is rough, but sweet enough to be
 maintained. You can find it on [ScribbleHub](https://www.scribblehub.com/series/427680/a-witchy-best-friend/)
 
+You can find the files [here](/awb/). But stick around a while longer and see
+about the [2024 version](#awb2024)!
+
+## A Witchy Best Friend 2024 { #awb2024 }
+
+I rewrote _AWB_. It will be uploaded to ScribbleHub over the coming days, but
+you already access all relevant files [here](/awb2024/)
+
+The rewriting is _much better_ than the original. I am a better writer than when
+I uploaded the first one, but the original will stay up for the nostalgia of a
+beginner :).
+
+Do give a try on Scribble, download the epub or PDF (I put a lot of love into
+the _Typst_ template of the PDF so try it too!) and even the source file (for..
+whatever reasons but hey it is open source so you do what ever you want)
+
 ## Support me { #support-me }
 
 If you fancy supporting me, first *thank you very much*, second, I am not a full
