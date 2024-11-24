@@ -149,7 +149,7 @@ to Ophelie_ but she kept on. “Yes, I’m here, and yes I know that. I _was_ on
 
   “Hey!” She said, pouting, to her friend.
   “Sorry E-, friend, you’re cute, but you’re oblivious as fuck if you thought we
-  were not _know it_. I even think there were some bets on when you would come
+  were not _knowing it_. I even think there were some bets on when you would come
   out.” Clara said, smiling softly
 
   “But I’m proud of you, so how come I don’t know it already?” She finished
@@ -189,8 +189,8 @@ to Ophelie_ but she kept on. “Yes, I’m here, and yes I know that. I _was_ on
   worse, the world) needed you.
 
   But she was twenty, and she assumed so, her friend was as well, what the hell
-  was she doing at a _Drama University_ when she potentially had enough power to
-  bend the rules of society in her favour. Ophelie calmed herself, Clara was her
+  was she doing in a _Drama University_ when she potentially had enough power to
+  bend the rules of society in her favour? Ophelie calmed herself, Clara was her
   friend, she _wouldn’t_ use her or use magic on her without her consent she was
   _safe_.
 
@@ -212,14 +212,14 @@ to Ophelie_ but she kept on. “Yes, I’m here, and yes I know that. I _was_ on
   can only make modifications which don’t contradict their internal image.” She
   explained, deep into magitheory.
 
-  Ophelie stopped her “_Internal Image?_,” she asked, she had _no idea_ what her
+  Ophelie stopped her “_Internal Image?_” she asked, she had _no idea_ what her
   friend was talking about. An _internal image_, magic, consent, it ringed up in
   her ears as she tried to parse and understand, but her mind was throwing
   parsing errors after parsing errors.
 
   Clara smiled softly “Yeah the _Internal Image_ of a person is their… well
   it’s how their mind, which is an abstract simplification of reality, trust me consciousness and being sentient is weird in magitheory.” she
-  stopped herself rambling, “Sorry I’m rambling, what I’m saying is, _you_, your
+  stopped herself from rambling, “Sorry I’m rambling, what I’m saying is, _you_, your
   _mind_, your _consciousness_, whatever you want, contains an _image_ a map of
   your ideal body, influencing all your choices.
   If your body isn’t synchronised
@@ -228,13 +228,13 @@ to Ophelie_ but she kept on. “Yes, I’m here, and yes I know that. I _was_ on
   Dysmorphia_.”
 
   Ophelie needed a minute, or ten, to comprehend what Clara just _dumped_ on
-  her. _Body maps_. _Internal images_. _Gender Dysphoria_ and _Body Dysmorphia_
-  she was utterly lost and her head was spinning faster than the Earth.
+  her. _Body maps_. _Internal images_. _Gender Dysphoria_ and _Body Dysmorphia_.
+  She was utterly lost and her head was spinning faster than the Earth.
 
-  Clara just _picked_ her friend up and hugged her completely and petted her,
+  Clara just _picked_ her friend up, hugged her completely, and petted her,
   until she calmed down. It took a few more minutes before the witch continued
   “Sorry for dumping all of this information on you, the bottom line is, I get it,
-  I saw my parents help a lot of trans folx too, so I can help you.
+  I saw my parents help a lot of trans folx too, so I can help you."
 
   #middle
 
@@ -261,11 +261,11 @@ to Ophelie_ but she kept on. “Yes, I’m here, and yes I know that. I _was_ on
 
   Clara laughed out loud, like, really she laughed like her life depended on it.
   “Honey, _I_ am the one making the spell, if I can’t see your internal image
-  how would I be able to pull it?” she smirked, sending flutters in Clara’s
+  how would I be able to pull it?” she smirked, sending flutters down Ophelie’s
   stomach.
 
   With a tiny, high, voice the latter consented to the spell. Clara looked
-  deeply in Ophelie’s eyes, conveying _raw feelings_ over a non-existing link
+  deeply into Ophelie’s eyes, conveying _raw feelings_ over a non-existent link
   but somehow she understood and nodded.
 
   #v(1fr)
@@ -284,7 +284,7 @@ to Ophelie_ but she kept on. “Yes, I’m here, and yes I know that. I _was_ on
   Two years had passed since Ophelie came out to Clara, and for her, every one of
   these days was a blessing. She loved her body, which was _remarkably_ similar
   to her old one, minus some plus other. Which was also a blessing, it was
-  easier to explain it and Clara was _very eager_ at the thought of staying in
+  easier to explain and Clara was _very eager_ at the thought of staying in
   the magical closet.
 
   Her _gender dysphoria_ almost completely disappeared a few weeks into her new
@@ -299,12 +299,12 @@ to Ophelie_ but she kept on. “Yes, I’m here, and yes I know that. I _was_ on
   The apartment in itself was great, the kitchen was big and in an open space
   with the living room, with a great view of _Lake Superior_ by the big window.
 
-  _Yeah_ they were attending university in Northern Europe and living in Canada,
+  _Yeah_, they were attending university in Northern Europe and living in Canada,
   turns out things could get _fun_ when you wielded more magic than the rest of
   humanity combined. Clara teleported them to Uni every day.
 
-  It had only _one bedroom_ with _one bed_ though. Clara enjoying her time
-  _Devouring_ Ophelie’s quiet screams and fears when they first moved in, she
+  It had only _one bedroom_ with _one bed_ though. Clara enjoyed her time
+  _devouring_ Ophelie’s quiet screams and fears when they first moved in, she
   hadn’t been told the _whole story_.
 
   “How do I look?” Ophelie said, anxiously, performing a little three hundred
@@ -335,7 +335,7 @@ to Ophelie_ but she kept on. “Yes, I’m here, and yes I know that. I _was_ on
 
   She opened it, revealing the small over-crowded student apartment ready for
   their weekly film meetup. They hadn’t let the habit die out, they, instead,
-  invited more friends, and unfortunately _they couldn’t teleport_ so they had
+  invited more friends, unfortunately, _they couldn’t teleport_ so they had
   to come here to Violet’s small apartment instead of using theirs.
 
   Ophelie had not even one idea about how Clara was able to afford the
@@ -356,7 +356,7 @@ to Ophelie_ but she kept on. “Yes, I’m here, and yes I know that. I _was_ on
   Jim and his partner were old high school friends of Clara. They attended the
   University of Western Europe along with Violet and her girlfriend. They were both
   trans men, Violet was a nonbinary demi girl, her girlfriend was genderqueer,
-  Clara was the only cis person on this couch.
+  and Clara was the only cis person on this couch.
 
   She had helped them too. Although not exactly like she helped her best friend,
   she couldn’t reveal her identity to this many people. So she quietly helped
@@ -368,8 +368,8 @@ to Ophelie_ but she kept on. “Yes, I’m here, and yes I know that. I _was_ on
 
   She managed to calm down the crowd and Ophelie managed to talk. “I took this
   2036 Disney, it’s _The Revenge of the Jedi-Mummies versus the Mighty Avengers_
-  and despite its name, was set inside _the Matrix_‘s universe. Disney tried
-  anything before falling over its weight a few years ago.
+  and despite its name, was set inside _the Matrix_‘s universe." Disney tried
+  anything before falling over its weight a few years after that film.
 
   #middle
 
@@ -386,7 +386,7 @@ to Ophelie_ but she kept on. “Yes, I’m here, and yes I know that. I _was_ on
   She thought of buying an engagement ring. The practice of weddings was also
   very last decade but she liked the idea of being Clara’s wife. She decided to
   wait another year before asking, she still wasn’t sure Clara loved her _this
-much_
+  much_.
 
   #middle
 
@@ -404,8 +404,8 @@ much_
   we’ll stay girlfriends” Clara said, she was, for once, the _anxious_ one.
 
   Ophelie raised an eyebrow and gestured for her to continue. Clara took something
-  from her pocket - even now in 2039 dresses _still_ don’t come with pockets!
-  She would be a bit jealous, but she _loved_ the feeling of a dress.
+  from her pocket - even now in 2059 dresses _still_ didn’t come with pockets!
+  She would be a bit jealous, but she _loved_ the feeling of dresses.
 
   Clara took Ophelie’s hands in hers. “Ophelie”, she smiled, “Ophelie, I can’t
   express how much I love you.”. “But I’ll try anyway, you’re wonderful, you’re
@@ -413,7 +413,7 @@ much_
   joy and honour to see you thrive these past two years.”
 
   Clara dropped to one knee. Ophelie’s heart started beating faster than it ever
-  was.
+  had.
 
   “Ophelie, my love, would you marry me?” _That’s it_ she was crying, big fat
   sobs fell from her eyes. Clara tried to speak, tried to get up, she was
