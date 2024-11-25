@@ -4,6 +4,7 @@
 #set text(font: "Literata")
 #set par(justify: true)
 #set page(
+  "a5",
   numbering: "1/1",
   margin: (outside: 1cm, inside: 2cm),
   footer: context {
@@ -13,7 +14,7 @@
       dir: ltr,
       if calc.rem(n, 3) == 1 {
         text(
-          13pt,
+          10pt,
           rgb(black).lighten(30%),
         )[This book is under the CC-BY-NC-SA 4.0 License, available
           #link("https://writing.charlotte-thoms.me/#awb2024", "here")]
@@ -322,7 +323,7 @@ to Ophelie_ but she kept on. “Yes, I’m here, and yes I know that. I _was_ on
   key-smashed herself into oblivion. Instead, they kissed.
 
   They *looked* at each other for another ten minutes, before Clara snapped out
-  of her gay heaven and said “Ophelie! We need to go! I know we thereby
+  of her gay heaven and said “Ophelie! We need to go! I know we go there by
   teleportation but if we fool around we’ll _definitely_ be late” she said while
   extracting herself out of the knot of limbs that happened every time they
   kissed.
