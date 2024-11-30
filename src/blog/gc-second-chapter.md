@@ -6,7 +6,7 @@
 
 ## Second chapter {#2nd}
 
-I finished the second chapter, _in which_ coming out happens, and aliens are
+I finished the second chapter, _Chapter II: Flashback_, _in which_ coming out happens, and aliens are
 ***confused***.
 
 It took me approximately 10 days to finish this chapter, it was a pretty
