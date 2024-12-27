@@ -2,11 +2,11 @@
 
 Hi! Welcome to my Writing Den.
 
-Here you will find a blog about my novel _Galactic Consequences_ and other short
-stories I wrote such as _A Witchy Best Friend_ you can find my [ScribbleHub
+Here you will find a blog about my novel **_Galactic Consequences_** and other short
+stories I wrote such as **_A Witchy Best Friend_** you can find my [ScribbleHub
 Profile](https://www.scribblehub.com/profile/49937/coco33920/) where my novels are published.
 
-## Galactic Consequences { #gc }
+## Galactic Consequences (GC) { #gc }
 
 _GC_ is my main story, it's still in the writing phase (of my first draft) so it
 won't appear on the shelves *just yet* but it will! The PDF/Web Novel will be
