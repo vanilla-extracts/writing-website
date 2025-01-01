@@ -267,9 +267,9 @@ fn build_feed(posts: &[Rc<Post>], metadata: &FeedMetadata) -> String {
     );
 
     let generator = atom_syndication::GeneratorBuilder::default()
-        .value("sabrinajewson.github.io".to_owned())
+        .value("writing.charlotte-thomas.me".to_owned())
         .uri(Some(
-            "https://github.com/SabrinaJewson/sabrinajewson.github.io".to_owned(),
+            "https://github.com/vanilla-extracts/writting-website".to_owned(),
         ))
         .build();
     feed.generator(Some(generator));

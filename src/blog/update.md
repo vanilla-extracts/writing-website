@@ -5,7 +5,7 @@
 
 ## My life {#life}
 Life has been... Hectic. These past few weeks. You may notice (or not if, *no
-one* if reading this blog, which very well may be the case) I haven't posted an
+one* is reading this blog, which very well may be the case) I haven't posted an
 update in a month, almost to the day.
 
 I've been busy, with life, work, friends and family. The holidays are not the
