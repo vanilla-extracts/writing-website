@@ -31,3 +31,5 @@ a backstory.
 
 I'm not revealing who are they though you'll have to wait for the chapter to be
 released!
+
+EDIT 2025-01-24: Add a little more on the blog entry
