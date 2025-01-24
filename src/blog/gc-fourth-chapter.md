@@ -18,7 +18,7 @@ It officially marks the 25% completion of the book, with 4 chapters out of 16.
 This is exciting!
 
 Stay tuned for _Chapter V: Exploration_ (yeah you can guess the quote won't stay
-true with a chapter name like this do you?)
+true with a chapter name like this can you?)
 
 ## Writer's block {#writer}
 So, why was I having a case of writer's block? I don't know, my muse was
@@ -32,4 +32,4 @@ a backstory.
 I'm not revealing who are they though you'll have to wait for the chapter to be
 released!
 
-EDIT 2025-01-24: Add a little more on the blog entry
+**EDIT 2025-01-24:** Add a little more on the blog entry
