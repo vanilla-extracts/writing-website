@@ -14,7 +14,11 @@ My favourite quote of the chapter
 
 > Aendir looked uneasy, and sighed “… Okay you can come, but we’re staying on Earth!”
 
-Stay tuned for _Chapter V: Exploration_
+It officially marks the 25% completion of the book, with 4 chapters out of 16.
+This is exciting!
+
+Stay tuned for _Chapter V: Exploration_ (yeah you can guess the quote won't stay
+true with a chapter name like this do you?)
 
 ## Writer's block {#writer}
 So, why was I having a case of writer's block? I don't know, my muse was
