@@ -53,6 +53,8 @@ amazing artworks!
 ## Font {#font}
 
 This website uses the [Monaspace Neon](https://monaspace.githubnext.com) font.
+This site's source code is [available on GitHub](https://github.com/SabrinaJewson/sabrinajewson.github.io).
+All content on the site is available under MIT, Apache-2.0, or CC BY 4.0.
 
 ## About Me { #about-me }
 I am using she/they pronouns and feminine accords. 
