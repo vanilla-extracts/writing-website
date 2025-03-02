@@ -52,5 +52,5 @@ Stellaris is giving me the side eyes, I'm just not sure I can actually run it
 without a dedicated GPU, even if the 7640U GPU cores are pretty advanced *for
 APUs*.
 
-It would be the first video game I play in literall *years* I haven't touched my
+It would be the first video game I play in literal *years* I haven't touched my
 last game (KSP) since 2021.
