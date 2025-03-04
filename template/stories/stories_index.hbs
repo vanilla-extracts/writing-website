@@ -12,17 +12,6 @@
 	{{/inline}}
 	{{#*inline "body"}}
 		<h1>{{{post.markdown.title}}}</h1>
-		<p id="published">
-			{{#if post.metadata.published}}
-				<time datetime="{{post.metadata.published}}">{{post.metadata.published}}</time>
-			{{else}}
-				Draft
-			{{/if}}
-			{{#if post.metadata.updated}}
-				(updated <time datetime="{{post.metadata.updated}}">{{post.metadata.updated}}</time>)
-			{{/if}}
-		</p>
-		<nav>{{{post.markdown.outline}}}</nav>
 		{{{post.markdown.body}}}
 
 		<p class="back"><a href="#">⮬ Back to top</a></p>
