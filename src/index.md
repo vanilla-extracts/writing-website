@@ -64,7 +64,8 @@ You can find my [website](https://www.charlotte-thomas.me) here, this is only th
 You can find me there:
 - [GitHub, as vanilla-extracts](https://github.com/vanilla-extracts)
 - Discord, as `vanilla_extracts`
+- Matrix, as _@me:faefox.dev_
+- Mastodon as _@vanilla_extract@woof.tech_
 - Email regarding my writing, at `gc [at] charlotte-thomas [dot] me`
 - General Email, at `me [at] charlotte-thomas [dot] me`
-- Threads/IG, as `vanilla.extracts`
 - [Ko-Fi as vanilla_extracts](https://ko-fi.com/vanilla_extracts)
