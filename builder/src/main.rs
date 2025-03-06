@@ -17,6 +17,7 @@
 
 mod blog;
 mod common_css;
+mod config;
 mod icons;
 mod index;
 mod not_found;
@@ -24,9 +25,8 @@ mod raw;
 mod reviews;
 #[cfg(feature = "server")]
 mod server;
+mod stories;
 mod templater;
-
-mod config;
 use config::Config;
 
 mod util;
@@ -170,6 +170,13 @@ fn asset<'asset>(
             templater.clone(),
             config,
         ),
+        stories::asset(
+            "template/stories".as_ref(),
+            "src/stories".as_ref(),
+            Path::new(util::bump::alloc_str_concat(bump, &[output, "/stories"])),
+            templater.clone(),
+            config,
+        ),
         //reviews::asset(
         //    "src/reviews.toml".as_ref(),
         //    "template/reviews.hbs".as_ref(),
@@ -194,7 +201,7 @@ fn asset<'asset>(
         icons::asset("src/icon.png".as_ref(), Path::new(output), config),
         raw::asset("raw".as_ref(), Path::new(output)),
     ))
-    .map(|((), (), (), (), (), (), ())| {})
+    .map(|((), (), (), (), (), (), (), ())| {})
 }
 
 #[context("failed to set cwd to project root")]
