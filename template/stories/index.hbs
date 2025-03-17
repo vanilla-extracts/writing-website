@@ -1,12 +1,12 @@
 {{#> base}}
 	{{#*inline "head"}}
-		<title>Writing Blog</title>
+		<title>Online Reader</title>
 		<meta property="og:title" content="Writing Blog">
 
 		<link type="application/atom+xml" rel="alternate" href="{{feed}}" title="Writing Blog">
 	{{/inline}}
 	{{#*inline "body"}}
-		<h1>{{{post.markdown.title}}}</h1>
-		{{{post.markdown.body}}}
+		<h1>{{{title}}}</h1>
+		{{{body}}}
 	{{/inline}}
 {{/base}}

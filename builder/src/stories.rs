@@ -6,21 +6,71 @@ pub(crate) fn asset<'a>(
     templater: impl Asset<Output = Templater> + Clone + 'a,
     config: impl Asset<Output = &'a Config> + Copy + 'a,
 ) -> impl Asset<Output = ()> + 'a {
-    let post_template = Rc::new(
+    let index_template = Rc::new(
         asset::TextFile::new(template_dir.join("index.hbs"))
             .map(|src| Template::compile(&src?).context("failed to compile blog post template"))
             .map(Rc::new)
             .cache(),
     );
 
-    let index_template = Rc::new(
+    let index_markdown = Rc::new(
+        asset::TextFile::new(src_dir.join("index.md"))
+            .map(|src| Rc::new(src.map(|src| markdown::parse(&src)))),
+    );
+
+    let post_css = asset::TextFile::new(template_dir.join("story.css")).map(|res| {
+        res.unwrap_or_else(|e| {
+            log::error!("{e:?}");
+            String::new()
+        })
+    });
+
+    let css = asset::all((post_css, config))
+        .map(|(mut post_css, config)| {
+            if config.minify {
+                minify(minify::FileType::Css, &mut post_css);
+            }
+            write_file(out_dir.join(STORY_CSS_PATH), post_css)?;
+            log::info!("successfully emitted post CSS");
+            Ok(())
+        })
+        .map(log_errors)
+        .modifies_path(out_dir.join(STORY_CSS_PATH));
+
+    let story_template = Rc::new(
         asset::TextFile::new(template_dir.join("stories_index.hbs"))
             .map(|src| Template::compile(&src?).context("failed to compile blog index template"))
             .map(Rc::new)
             .cache(),
     );
 
-    let html = asset::Dir::new(src_dir)
+    asset::all((index_markdown, templater.clone(), index_template))
+        .map(|(markdown, templater, template)| {
+            let (markdown, template) = ErrorPage::zip((*markdown).as_ref(), (*template).as_ref())?;
+
+            #[derive(Serialize)]
+            struct TemplateVars<'a> {
+                title: &'a str,
+                body: &'a str,
+            }
+            let vars = TemplateVars {
+                title: &markdown.title,
+                body: &markdown.body,
+            };
+            Ok(templater.render(template, vars)?)
+        })
+        .map(move |html| {
+            write_file(
+                out_dir.join("index.html"),
+                html.unwrap_or_else(ErrorPage::into_html),
+            )?;
+            log::info!("successfully emitted index.html yay!");
+            Ok(())
+        })
+        .map(log_errors)
+        .modifies_path(out_dir.join("index.html"))
+
+    /*let html = asset::Dir::new(src_dir)
         .map(move |files| -> anyhow::Result<_> {
             // TODO: Whenever the directory is changed at all, this entire bit of code is re-run
             // which throws away all the old `Asset`s.
@@ -53,12 +103,12 @@ pub(crate) fn asset<'a>(
 
                 stories.push(story.clone());
 
-                let story_page = asset::all((story, templater.clone(), post_template.clone()))
+                let story_page = asset::all((story, templater.clone(), story_template.clone()))
                     .map({
                         let output_path = output_path.clone();
                         move |(story, templater, template)| {
                             if let Some(story) = story {
-                                let built = build_post(&story, &templater, (*template).as_ref())
+                                let built = build_stories(&story, &templater, (*template).as_ref())
                                     .unwrap_or_else(ErrorPage::into_html);
                                 write_file(&output_path, built)?;
                                 log::info!("successfully emitted {}.html", &story.stem);
@@ -74,18 +124,7 @@ pub(crate) fn asset<'a>(
 
             let stories = Rc::new(asset::all(stories).map(process_stories).cache());
 
-            let index = asset::all((stories, templater.clone(), index_template.clone()))
-                .map(|(stories, templater, template)| {
-                    let index = build_index(&stories, &templater, &template)
-                        .unwrap_or_else(ErrorPage::into_html);
-                    write_file(out_dir.join("index.html"), index)?;
-                    log::info!("successfully emitted blog index");
-                    Ok(())
-                })
-                .map(log_errors)
-                .modifies_path(out_dir.join("index.html"));
-
-            Ok(asset::all((asset::all(story_pages), index)).map(|_| {}))
+            Ok(asset::all(story_pages).map(|_| {}))
         })
         .map(|res| -> Rc<dyn Asset<Output = _>> {
             match res {
@@ -98,27 +137,8 @@ pub(crate) fn asset<'a>(
         })
         .cache()
         .flatten();
-
-    let post_css = asset::TextFile::new(template_dir.join("story.css")).map(|res| {
-        res.unwrap_or_else(|e| {
-            log::error!("{e:?}");
-            String::new()
-        })
-    });
-
-    let css = asset::all((post_css, config))
-        .map(|(mut post_css, config)| {
-            if config.minify {
-                minify(minify::FileType::Css, &mut post_css);
-            }
-            write_file(out_dir.join(STORY_CSS_PATH), post_css)?;
-            log::info!("successfully emitted post CSS");
-            Ok(())
-        })
-        .map(log_errors)
-        .modifies_path(out_dir.join(STORY_CSS_PATH));
-
-    asset::all((html, css)).map(|((), ())| {})
+    */
+    // asset::all((html, css)).map(|((), ())| {})
 }
 
 #[derive(Serialize)]
@@ -167,17 +187,22 @@ fn read_post(stem: Rc<str>, src: anyhow::Result<String>) -> Story {
 fn build_index(
     stories: &[Rc<Story>],
     templater: &Templater,
-    template: &anyhow::Result<Template>,
+    template: &Template,
+    markdown: &Markdown,
 ) -> Result<String, ErrorPage> {
     #[derive(Serialize)]
     struct TemplateVars<'a> {
         stories: &'a [Rc<Story>],
+        body: &'a str,
     }
-    let vars = TemplateVars { stories };
-    Ok(templater.render(template.as_ref()?, vars)?)
+    let vars = TemplateVars {
+        stories: &stories,
+        body: &markdown.body,
+    };
+    Ok(templater.render(template, vars)?)
 }
 
-fn build_post(
+fn build_stories(
     story: &Story,
     templater: &Templater,
     template: Result<&Template, &anyhow::Error>,
