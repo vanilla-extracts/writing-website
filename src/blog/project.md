@@ -26,3 +26,12 @@ He sometimes has some dates but he always feels weird.
 One day one of his roommates suddenly turn into a girl after an email. It's far more powerful than even the best Antarctican Tech Mages can do.
 
 Follow Gordon as he discovers a strange new world and a part of himself he never thought existed.
+
+## Chapters {#chapters}
+The story has four chapters, and an epilogue.
+
+1. Chapter 1: My roommate is suddenly a girl.
+2. Chapter 2: Of course, all my roommates followed.
+3. Chapter 3: Somehow we're all a polycule now.
+4. Chapter 4: Some of them have a tail.
+5. Epilogue: Alicia.
