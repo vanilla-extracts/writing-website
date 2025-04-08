@@ -35,3 +35,6 @@ The story has four chapters, and an epilogue.
 3. Chapter 3: Somehow we're all a polycule now.
 4. Chapter 4: Some of them have a tail.
 5. Epilogue: Alicia.
+
+<hr/>
+EDIT: 2025-04-08: Add Chapter list.
