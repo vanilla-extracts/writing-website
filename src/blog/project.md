@@ -38,6 +38,7 @@ The story has four chapters, and an epilogue.
 
 <hr/>
 EDIT: 
+
 - 2025-04-08: Add Chapter list.
 - 2025-04-27: Change working title from 'My roommates suddenly turned into girls' to 'My roommates suddenly turned into my girlfriends'
 
