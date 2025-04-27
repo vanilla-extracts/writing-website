@@ -1,7 +1,7 @@
 {
  "published": "2025-04-02"
 }
-# Announcing new short story: My roommates suddenly turned into girls (Working Title)
+# Announcing new short story: My roommates suddenly turned into my girlfriends (Working Title)
 
 ## Roommates {#roommates}
 I have... yet another project. It's cute and silly the name may change but the current working title is:
@@ -37,4 +37,7 @@ The story has four chapters, and an epilogue.
 5. Epilogue: Alicia.
 
 <hr/>
-EDIT: 2025-04-08: Add Chapter list.
+EDIT: 
+- 2025-04-08: Add Chapter list.
+- 2025-04-27: Change working title from 'My roommates suddenly turned into girls' to 'My roommates suddenly turned into my girlfriends'
+
