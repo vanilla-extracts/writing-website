@@ -6,7 +6,7 @@
 ## Roommates {#roommates}
 I have... yet another project. It's cute and silly the name may change but the current working title is:
 
-**My roommates suddenly turned into girls**
+**My roommates suddenly turned into my girlfriends**
 
 It's in the same setting as *A Witchy Best Friend (2024)* and takes place in the 2070s decade. It follows a perfectly cishet boy named Gordon. One day one of his roommates turned into a girl. 
 
