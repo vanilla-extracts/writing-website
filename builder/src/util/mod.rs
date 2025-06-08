@@ -12,6 +12,7 @@ pub(crate) fn log_errors<T>(res: anyhow::Result<T>) {
     }
 }
 
+#[derive(Debug)]
 pub(crate) struct ErrorPage(String);
 
 impl ErrorPage {
