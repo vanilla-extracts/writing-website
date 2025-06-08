@@ -38,7 +38,7 @@ pub(crate) fn asset<'a>(
         .modifies_path(out_dir.join(STORY_CSS_PATH));
 
     let story_template = Rc::new(
-        asset::TextFile::new(template_dir.join("stories_index.hbs"))
+        asset::TextFile::new(template_dir.join("story.hbs"))
             .map(|src| Template::compile(&src?).context("failed to compile blog index template"))
             .map(Rc::new)
             .cache(),
@@ -68,9 +68,9 @@ pub(crate) fn asset<'a>(
             Ok(())
         })
         .map(log_errors)
-        .modifies_path(out_dir.join("index.html"))
+        .modifies_path(out_dir.join("index.html"));
 
-    /*let html = asset::Dir::new(src_dir)
+    let html = asset::Dir::new(src_dir)
         .map(move |files| -> anyhow::Result<_> {
             // TODO: Whenever the directory is changed at all, this entire bit of code is re-run
             // which throws away all the old `Asset`s.
@@ -137,8 +137,8 @@ pub(crate) fn asset<'a>(
         })
         .cache()
         .flatten();
-    */
-    // asset::all((html, css)).map(|((), ())| {})
+
+    asset::all((html, css)).map(|((), ())| {})
 }
 
 #[derive(Serialize)]
@@ -157,13 +157,20 @@ struct StoryContent {
     markdown: Markdown,
 }
 
-#[derive(Default, Serialize, Deserialize)]
+#[derive(Default, Serialize, Deserialize, Debug)]
+struct Chapter {
+    name: String,
+    link: String,
+    index: u16,
+}
+
+#[derive(Default, Serialize, Deserialize, Debug)]
 struct StoryMetadata {
     name: String,
     short: String,
-    chapters: i32,
     published: Option<NaiveDate>,
     status: String,
+    chapters: Vec<Chapter>,
 }
 
 fn read_post(stem: Rc<str>, src: anyhow::Result<String>) -> Story {
@@ -172,7 +179,6 @@ fn read_post(stem: Rc<str>, src: anyhow::Result<String>) -> Story {
             let mut json = serde_json::Deserializer::from_str(&src).into_iter();
             let metadata = json.next().and_then(Result::ok).unwrap_or_default();
             let markdown = &src[json.byte_offset()..];
-
             let mut markdown = markdown::parse(markdown);
             if markdown.title.is_empty() {
                 log::warn!("Post in {stem}.md does not have title");

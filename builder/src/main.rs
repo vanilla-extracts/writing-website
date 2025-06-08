@@ -172,8 +172,11 @@ fn asset<'asset>(
         ),
         stories::asset(
             "template/stories".as_ref(),
-            "src/stories".as_ref(),
-            Path::new(util::bump::alloc_str_concat(bump, &[output, "/stories"])),
+            "src/awb".as_ref(),
+            Path::new(util::bump::alloc_str_concat(
+                bump,
+                &[output, "/stories/awb"],
+            )),
             templater.clone(),
             config,
         ),
