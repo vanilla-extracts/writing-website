@@ -9,8 +9,8 @@ I ran AWB through it and uploaded the correct version to the website
 ## Download {#dl}
 
 You can download it [here
-(PDF)](https://writing.charlotte-thomas.me/awb2024/awb.pdf) and [here
-(EPUB](https://writing.charlotte-thomas.me/awb2024/awb.epub).
+(PDF)](https://analgesia.icu/awb2024/awb.pdf) and [here
+(EPUB](https://analgesia.icu/awb2024/awb.epub).
 
 ~~ Enjoy ~~
 
