@@ -5,7 +5,7 @@
 ## Move {#move}
 So, if you follow this blog (first of all, what the hell, like, why?) you would be able to see all links now point to `analgesia.icu/*`
 
-[The old URL (writing.charlotte-thomas.me)] still works to access the website and even see the RSS flux, which I'm sure exactly 0 people are subscribed to (do not lie, you're not there, I'm the only one reading, and writing.) but all internal links points to `analsia.icu` as the new domain.
+[The old URL](writing.charlotte-thomas.me) still works to access the website and even see the RSS flux, which I'm sure exactly 0 people are subscribed to (do not lie, you're not there, I'm the only one reading, and writing.) but all internal links points to `analsia.icu` as the new domain.
 
 ## Why... {#why}
 You could ask
