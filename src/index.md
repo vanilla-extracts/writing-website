@@ -82,4 +82,5 @@ You can find me there:
 - Matrix, as _@me:faefox.dev_
 - Mastodon as _@vanilla_extract@woof.tech_
 - General Email, at [`me@charlotte-thomas.me`](mailto:me@charlotte-thomas.me)
+- Tutoring, at [`charlotte@tutorat.me`](mailto:charlotte@tutorat.me)
 - [Ko-Fi as vanilla_extracts](https://ko-fi.com/vanilla_extracts)
