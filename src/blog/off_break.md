@@ -12,7 +12,7 @@ The break was important for my mental and physical health.
 ## What the hell is wrong with you {#you}
 I have multiple chronic illnesses, including CFS caused by Long EBV and Long COVID, and I have mental health issues, I was focusing on getting better so I could work again.
 
-The holidays have been good for me, and I'm looking forward to start working again. I have so many ideas for the book and how to improve it, I even have sketches of the vessel used by our protagonists, the *Union Science Ship AIX-09*
+The holidays have been good for me, and I'm looking forward to start working again. I have so many ideas for the book and how to improve it. I even have a sketch of the vessel used by our protagonists, the *Union Science Ship AIX-09*
 I will include these sketches at the end of this article. They are merely concept sketches for my head to concentrate, I have aphantasia and thus I am unable to form voluntary mental images, so I had to get on paper. Unfortunately, I am a scientist and not a skilled artist, so they are simple.
 
 ## Galactic Consequences {#gc}
@@ -22,12 +22,10 @@ I will start by editing what I already wrote to correct the descriptions of the 
 
 I hope to have news for you (read: finishing chapter VIII) by the middle of February, finishing in January will be tough as I have many medical visits literally at opposite cities in my country.
 
-## Concept Sketches {#sketches}
+## Concept Sketch {#sketches}
 
 [![Lateral View](/static/concept_sketch_lateral_view.jpg)](/static/concept_sketch_lateral_view.jpg)
 
-
-[![Top View](/static/concept_sketch_top_view.jpg)](/static/concept_sketch_top_view.jpg)
 
 ## Afterwords {#afterwords}
 I hope you enjoy those sneak peaks at the vessel they use :)
@@ -37,3 +35,5 @@ I will be back to announce the new chapters.
 Charlotte Thomas.
 
 *P.S: I finally changed the RSS Feed to the new domain.*
+
+- EDIT: 2025-12-28 20:33:00 +0100, change sketch to a better sketch
