@@ -191,7 +191,6 @@ fn read_post(stem: Rc<str>, src: anyhow::Result<String>) -> Post {
             let mut json = serde_json::Deserializer::from_str(&src).into_iter();
             let metadata = json.next().and_then(Result::ok).unwrap_or_default();
             let markdown = &src[json.byte_offset()..];
-
             let mut markdown = markdown::parse(markdown);
             if markdown.title.is_empty() {
                 log::warn!("Post in {stem}.md does not have title");
