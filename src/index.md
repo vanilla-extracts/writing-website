@@ -17,6 +17,13 @@ So we can consider the first draft of Galactic Consequences to be between 40 and
 
 You can read (and really should!) the [blog](/blog/) for updates on _GC_!
 
+## An Epic Battle {#epic-battle}
+_An Epic Battle_ is a sweet short story about a girl and an AI, playing tennis, and developing feelings.
+
+It is in the same universe as AWB and Roommates (the _witchy-verse_) but the date is unspecified.
+
+You can find the files (PDF,EPUB,Sources) [here](/epic_battle). Or you can find it on [Fluff]() or [ScribbleHub]()
+
 ## Roommates (My Roommates Suddenly Became My Girlfriends) {#roommates}
 
 _Roommate_ is the name I use for the very-long title of the short story _My roommates suddenly became my girlfriends_.
