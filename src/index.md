@@ -22,7 +22,7 @@ _An Epic Battle_ is a sweet short story about a girl and an AI, playing tennis, 
 
 It is in the same universe as AWB and Roommates (the _witchy-verse_) but the date is unspecified.
 
-You can find the files (PDF,EPUB,Sources) [here](/epic_battle). Or you can find it on [Fluff]() or [ScribbleHub]()
+You can find the files (PDF,EPUB,Sources) [here](/epic_battle). Or you can find it on [Fluff](https://fluff4.me/work/vanilla-extracts/epic-battle) or [ScribbleHub](https://www.scribblehub.com/series/2125284/an-epic-battle/)
 
 ## Roommates (My Roommates Suddenly Became My Girlfriends) {#roommates}
 
