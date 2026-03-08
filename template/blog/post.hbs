@@ -6,10 +6,11 @@
 		<meta name="description" content="{{post.markdown.summary}}"/>
 		<meta property="og:description" content="{{post.markdown.summary}}"/>
 		<meta property="og:type" content="article"/>
-
 		<link rel="stylesheet" href="{{post_css}}">
 		{{#if live_reload}}<script>dependency("{{post_css}}")</script>{{/if}}
-
+		<meta property="og:article:author" content="Charlotte Thomas"/>
+		<meta property="og:article:site_name" content="analgesia.icu"/>
+		<meta name="theme-color" content="#55cdfc"/>
 		<link type="application/atom+xml" rel="alternate" href="{{feed}}" title="CT Writing Den's Blog">
 	{{/inline}}
 	{{#*inline "body"}}
